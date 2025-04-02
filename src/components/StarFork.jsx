@@ -20,7 +20,7 @@ export default function GitHubStarButton() {
         setLoading(false);
       } catch (err) {
         console.error('Error fetching GitHub repo data:', err);
-        setError('Failed to load repository data');
+        setError('Failed to load repo data');
         setLoading(false);
       }
     };
@@ -47,7 +47,7 @@ export default function GitHubStarButton() {
         className="flex items-center bg-opacity-50 bg-[#21262d] backdrop-blur-lg text-white text-sm font-semibold  rounded-xl shadow-md hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-75 hover:border border-purple-400"
         style={{
           border: '1px solid rgba(192, 132, 252, 1)',
-          boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
+          boxShadow: '0 12px 32px 0 rgba(31, 38, 135, 0.37)',
         }}
         
       >

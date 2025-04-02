@@ -49,7 +49,7 @@ function App() {
         <div className="container mx-auto px-4 py-12">
           <Suspense fallback={<div>Loading...</div>}>
             <Routes>
-              <Route path="/" element={<MemoizedHome />} />
+              <Route path="/home" element={<MemoizedHome />} />
               <Route path="/faq" element={<MemoizedFAQ />} />
               <Route
                 path="/profileGenerator"
